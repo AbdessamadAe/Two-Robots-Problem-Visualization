@@ -26,7 +26,5 @@ To run this visualization, you can use Manim. Here are the steps to render the v
 ## Video Preview
 [Video Preview](https://github.com/AbdessamadAe/Two-Robots-Problem-Visualization/blob/main/media/videos/TwoRobots/1080p60/TwoRobotsProblem.mp4)
 
-You can watch the full video on [YouTube]().
-
 ## Author
 - [Abdessamad Ait Elmouden](https://github.com/AbdessamadAe)
