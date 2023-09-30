@@ -1,6 +1,24 @@
 from manim import *
 
 
+class ImgPreview(Scene):
+    def construct(self):
+        background = ImageMobject("./assets/Space").scale(.5).set_opacity(.5)
+        self.add(background)
+        line = Line(10 * LEFT, 10 * RIGHT)
+        line.color = GREEN
+        self.add(line)
+        
+        robot1 = SVGMobject("./assets/robot").scale(.3).shift(0.32 * UP + 3 * LEFT)
+        x1 = robot1.get_x()
+        flag1 = ImageMobject("./assets/parachute.png").scale(.1).shift(0.21 * UP + 3 * LEFT)
+
+        robot2 = SVGMobject("./assets/robot2").scale(.3).shift(0.32 * UP + 6 * LEFT)
+        x2 = robot2.get_x()
+        flag2 = ImageMobject("./assets/parachute.png").scale(.1).shift(0.21 * UP + 6 * LEFT)
+        
+        self.add(flag1, robot1, flag2, robot2)
+
 class TwoRobotsProblem(Scene):
     def construct(self):
         background = ImageMobject("./assets/Space").scale(.5).set_opacity(.5)
