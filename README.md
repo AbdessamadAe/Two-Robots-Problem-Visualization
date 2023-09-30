@@ -1,7 +1,5 @@
 # Two Robots Problem Visualization
 
-![Thumbnail Image](thumbnail.png)
-
 This repository contains a visualization of the "Two Robots Problem" using the Manim library. In this problem, two robots land on an infinite one-dimensional number line and need to meet using a specific set of functions.
 
 ## Problem Description
@@ -26,9 +24,7 @@ To run this visualization, you can use Manim. Here are the steps to render the v
 2. **Run the Script**: Use the following command to render the video: ``manim -p -ql TwoRobots.py TwoRobotsProblem``
 
 ## Video Preview
-[![Video Preview](video_preview.png)](link_to_your_video.mp4)
-
-You can watch the full video on [YouTube](link_to_your_youtube_video).
+[Video Preview](https://github.com/AbdessamadAe/Two-Robots-Problem-Visualization/blob/main/media/videos/TwoRobots/1080p60/TwoRobotsProblem.mp4)
 
 ## Author
 - [Abdessamad Ait Elmouden](https://github.com/AbdessamadAe)
